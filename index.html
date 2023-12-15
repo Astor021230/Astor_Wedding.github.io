@@ -25,8 +25,7 @@
 
 <body>
 
-  <section id="hero"
-    class="hero w-100 h-100 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+  <section id="hero" class="hero mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <div class="position-absolute w-100 top-0 start-50 translate-middle-x py-5">
         <h3>The Wedding of</h3>
@@ -35,7 +34,7 @@
       <div class="position-absolute w-100 bottom-0 start-50 translate-middle-x my-3">
         <p>Kepada Bapak/Ibu/Saudara/i</p>
         <h3>Aida dan partner</h3>
-        <a href="#home" class="btn btn-lg mt-4">Lihat undangan</a>
+        <a href="#home" class="btn btn-lg mt-4 mb-5">Lihat undangan</a>
       </div>
       </div>
     </main>
@@ -141,11 +140,11 @@
     const stickyTop = document.querySelector('.sticky-top');
     const offcanvas = document.querySelector('.offcanvas');
 
-    offcanvas.addEventListener('show.bs.offcanvas', function(){
+    offcanvas.addEventListener('show.bs.offcanvas', function () {
       stickyTop.style.overflow = 'visible';
     });
 
-    offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+    offcanvas.addEventListener('hidden.bs.offcanvas', function () {
       stickyTop.style.overflow = 'hidden';
     });
 
