@@ -93,7 +93,7 @@ body{
     background-size: cover;
     min-height: 100vh;
     margin-top: -5rem;
-    padding-top: 15rem;
+    padding-top: 9rem;
     /* padding-bottom: 5rem; */
 }
 
@@ -116,7 +116,8 @@ body{
 }
 
 .home .couple-1 img{
-    width: 100%;    
+    width: 100%;
+    margin-bottom: 20rem;
 }
 
 .home .couple-1 h3{
