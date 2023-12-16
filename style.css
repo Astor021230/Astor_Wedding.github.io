@@ -93,7 +93,7 @@ body{
     background-size: cover;
     min-height: 100vh;
     margin-top: -5rem;
-    padding-top: 8rem;
+    padding-top: 23rem;
     padding-bottom: 5rem;
 }
 
@@ -113,6 +113,35 @@ body{
 .home .couple img{
     width: 100%;
     margin-top: 3rem;
+}
+
+.home .couple-1 img{
+    width: 100%;    
+}
+
+.home .couple-1 h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.nama a{
+    background-color: lightblue;
+    color: white;
+}
+
+.home .nama h1{
+    font-family: sacramento, cursive;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.home .nama h3{
+    margin-top: 2rem;
+}
+
+.home .nama a{
+    margin-top: 1rem;
 }
 
 /* media quary */
