@@ -170,8 +170,8 @@ body{
     }
 
     .hero h2{
-        font-size: 4rem;
-        margin-top: 5px;
+        font-size: 5rem;
+        margin-top:     10px;
     }
 
     .hero h3{
@@ -180,6 +180,6 @@ body{
     }
 
     .hero p{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
